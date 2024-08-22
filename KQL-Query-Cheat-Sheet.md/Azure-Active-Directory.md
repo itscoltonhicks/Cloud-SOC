@@ -1,4 +1,4 @@
-# Azure Active Directory
+# Azure Active Directory (Now Called Microsoft Entra ID)
 
 ```
 // View Mass AAD Auth Failures
