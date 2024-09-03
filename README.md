@@ -48,8 +48,6 @@ Additional technologies, components and regulations used:
 
 Before hardening the honeynet, all the resources were deployed and exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open. And all other resources were deployed with public endpoints visible to the public internet.
 
-After hardening the honeynet, the Network Security Groups blocked all traffic with the exception of my admin workstation. I added an NSG at the subnet level for additional network protection. I also enabled the built-in Windows firewall and implemented private endpoints for the other resources (Key Vault and Blob Storage Account).
-
 ## Attack Maps Before Hardening / Security Controls
 ### Failed Windows RDP Logon Attempts
 ![windows failed rdp map](https://github.com/user-attachments/assets/5fc91792-5264-49bb-9247-87a8caae6780)
@@ -81,7 +79,9 @@ The following table shows the metrics we measured in our insecure environment fo
 
 ## Metrics After Hardening / Security Controls
 
-The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
+After hardening the honeynet, the Network Security Groups blocked all traffic with the exception of my admin workstation. I added an NSG at the subnet level for additional network protection. I also enabled the built-in Windows firewall and implemented private endpoints for the other resources (Key Vault and Blob Storage Account).
+
+The following table shows the metrics we measured in our environment for another 24 hours, but after we applied security controls:
 
 **Start Time:** 8/28/2024, 2:33:27.078 PM PST
 
