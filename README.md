@@ -6,10 +6,10 @@
 Here's what I did in this project:
 - **Create a honeynet:** I started by setting up a decoy network within Azure and exposing it to the public internet. This enticed real hackers to attack my resources.
 - **Build a cloud Security Operations Center (SOC):** Next, I built a monitoring and response center—a kind of watchtower where I can observe threat actors target my honeynet resources.
-- **Trigger and respond to security incidents:** The honeynet generated security alerts. And I responded to them by following [NIST SP 800-61](https://csrc.nist.gov/pubs/sp/800/61/r2/final) guidelines.
+- **Apply the Incident Response Lifecyle:** The honeynet generated security alerts. And I followed NIST SP 800-61 guidelines to address them. 
 - **Implement security controls:** As part of NIST’s guidelines, I bolstered my honeynet's security posture by implementing security controls.
 
-I ran the insecure honeynet for 24 hours and collected metrics. Based on the incidents being investigated, I applied security controls to harden the environment. I waited another 24 hours and collected metrics for the hardened environment.
+I ran the insecure honeynet for 24 hours and collected metrics to understand its security posture. After implementing security controls, I waited another 24 hours and collected metrics to see how these changes impacted the security of the honeynet.
 
 Here are the metrics I collected before and after implementing security controls:
 
