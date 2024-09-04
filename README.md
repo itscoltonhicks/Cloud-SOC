@@ -109,4 +109,4 @@ I built a honeynet and cloud SOC in Azure cloud. This setup triggered security i
 
 ## Read the In-Depth Article Breakdown
 If you'd like to check out the in-depth project breakdown, check out my article:
-How I Used Azure Cloud to Build a Honeynet, Detect Live Threats, and Respond to SOC Incidents
+[Here's How I Used Azure Cloud to Build a Honeynet, Detect Live Threats, and Respond to SOC Incidents](https://coltonhicks.medium.com/heres-how-i-used-azure-cloud-to-build-a-honeynet-detect-live-threats-and-respond-to-soc-9c4eec7c05d5)
