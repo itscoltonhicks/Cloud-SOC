@@ -107,6 +107,6 @@ The following table shows the metrics we measured in our environment for another
 
 I built a honeynet and cloud SOC in Azure cloud. This setup triggered security incidents, which I responded to by following NIST's guidelines and hardening my honeynet environment. This project lies at the heart of defensive cybersecurity, while also providing a solid introduction to Azure cloud. It sharpened my incident response skills and deepened my understanding of how threat actors operate.
 
-## Read the In-Depth Article Breakdown
+## Read the In-Depth Project Breakdown
 If you'd like to check out the in-depth project breakdown, check out my article:
 [Here's How I Used Azure Cloud to Build a Honeynet, Detect Live Threats, and Respond to SOC Incidents](https://coltonhicks.medium.com/heres-how-i-used-azure-cloud-to-build-a-honeynet-detect-live-threats-and-respond-to-soc-9c4eec7c05d5)
