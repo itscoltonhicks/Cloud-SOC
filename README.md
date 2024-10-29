@@ -37,6 +37,7 @@ The architecture of the honeynet in Azure consists of the following components:
 
 Additional technologies, components and regulations used:
 
+- Security Operations Center (SOC)
 - Microsoft Defender for Cloud (MDC)
 - NIST SP 800-53 Revision 5
 - NIST SP 800-61 Revision 2
